@@ -138,7 +138,7 @@ const
       }
       document.querySelector('#iw-website-row').style.display = 
         '';
-      document.querySelector('#iw-website').textContent = website;
+      document.querySelector('#iw-website').innerHTML = `<a href="${website}">${website}</a>`;
     } else {
       document.querySelector('#iw-website-row').style.display = 'none';
     }
