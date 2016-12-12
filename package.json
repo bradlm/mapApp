@@ -1,0 +1,34 @@
+{
+  "name": "mapApp",
+  "description": "A Google Places Map App",
+  "main": "server/index.js",
+  "engines": {
+    "node":"6.4.0"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon & webpack --progress --colors --watch --display-error-details",
+    "new": "npm i && webpack",
+    "heroku-postbuild": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradlm/mapApp"
+  },
+  "author": "Bradford Melluish",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "node": "0.0.0",
+    "path": "^0.12.7", 
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

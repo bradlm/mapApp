@@ -1,0 +1,136 @@
+export const 
+/***Starting GeoLocation Settings***/
+  DEFAULT_LOCATION = { //San Francisco, CA
+    latitude: 37.7840401,
+    longitude: -122.4090202
+  },
+  WAIT_SEC = 5, //time to wait for user approval before falling back on default location
+
+  /***Nearby Places Search Settings***/
+  AUTOCOMPLETE_PLACEHOLDER = '(currently centered location)',
+  MARKER_BOUNCES = 2,
+  MARKER_BOUNCE_DURATION = 700,
+  NEARBY_RADIUS = 5000,
+  DEFAULT_ZOOM = 14,
+  SEARCH_ZOOM = 15,
+
+  /***Other Program Settings***/
+  UNFOCUS_KEY = 27, //'ESC'
+  SUBMIT_KEY = 13, //'ENTER'
+  TITLE_COLORS = {
+    c1:'4285F4', //blue
+    c2: 'EA4335', //red
+    c3: 'FBBC05', //yellow
+    c4: '34A853', //green
+  },
+  TITLE_COLORS_ORDER = [
+    'c1',
+    'c2',
+    'c3',
+    'c1',
+    'c4',
+    'c2'
+  ],
+  APP_TARGET_DIV_ID = 'app',
+  HOST_FORMAT = /^https?:\/\/.+?\//,
+  CALLBACK = 'initialize',
+  LIBRARIES = 'places',
+  MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green',
+  DEFAULT_DEBOUNCE_TIMER = 600,
+
+  /***Supported Place Types***/
+  PLACE_TYPES = { 
+  //keys are place types. 
+  //set value to `true` to make selected by default
+    '': true, //any
+    'accounting': false,
+    'airport': false,
+    'amusement_park': false,
+    'aquarium': false,
+    'art_gallery': false,
+    'atm': false,
+    'bakery': false,
+    'bank': false,
+    'bar': false,
+    'beauty_salon': false,
+    'bicycle_store': false,
+    'book_store': false,
+    'bowling_alley': false,
+    'bus_station': false,
+    'cafe': false,
+    'campground': false,
+    'car_dealer': false,
+    'car_rental': false,
+    'car_repair': false,
+    'car_wash': false,
+    'casino': false,
+    'cemetery': false,
+    'church': false,
+    'city_hall': false,
+    'clothing_store': false,
+    'convenience_store': false,
+    'courthouse': false,
+    'dentist': false,
+    'department_store': false,
+    'doctor': false,
+    'electrician': false,
+    'electronics_store': false,
+    'embassy': false,
+    'fire_station': false,
+    'florist': false,
+    'funeral_home': false,
+    'furniture_store': false,
+    'gas_station': false,
+    'gym': false,
+    'hair_care': false,
+    'hardware_store': false,
+    'hindu_temple': false,
+    'home_goods_store': false,
+    'hospital': false,
+    'insurance_agency': false,
+    'jewelry_store': false,
+    'laundry': false,
+    'lawyer': false,
+    'library': false,
+    'liquor_store': false,
+    'local_government_office': false,
+    'locksmith': false,
+    'lodging': false,
+    'meal_delivery': false,
+    'meal_takeaway': false,
+    'mosque': false,
+    'movie_rental': false,
+    'movie_theater': false,
+    'moving_company': false,
+    'museum': false,
+    'night_club': false,
+    'painter': false,
+    'park': false,
+    'parking': false,
+    'pet_store': false,
+    'pharmacy': false,
+    'physiotherapist': false,
+    'plumber': false,
+    'police': false,
+    'post_office': false,
+    'real_estate_agency': false,
+    'restaurant': false,
+    'roofing_contractor': false,
+    'rv_park': false,
+    'school': false,
+    'shoe_store': false,
+    'shopping_mall': false,
+    'spa': false,
+    'stadium': false,
+    'storage': false,
+    'store': false,
+    'subway_station': false,
+    'synagogue': false,
+    'taxi_stand': false,
+    'train_station': false,
+    'transit_station': false,
+    'travel_agency': false,
+    'university': false,
+    'veterinary_care': false,
+    'zoo': false
+  };
