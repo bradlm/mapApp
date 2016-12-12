@@ -9,6 +9,7 @@ Map App is a tool for users to view places of interest near locations of their c
 - Removed extraneous queue class. 
 - Made title color settings more dynamic.
 - Tied map loading spinner coloring to first four title color values from settings, instead of static CSS values. 
+- Responsive design fixes and more dynamic scrolling on listings.
 - Implemented Heroku and Git
 - Moved settings file and api keys into `config` folder.
 - Updated bad links in README.MD
@@ -23,9 +24,11 @@ A live version of this app can be found [here][0]
 
 Markdown formatting can be viewed in Chrome using [Markdown Preview Plus][1] or any other equivalent extension from the [Chrome store][2]. To view, simply install any such extension and open README.MD in Chrome. Otherwise, feel free to use your text editor of choice to view as plain text. 
 
+This Readme can also be found on [Github][3].
+
 ###System Requirements
 - A working internet connection
-- [npm][3] package manager
+- [npm][4] package manager
 
 ###Compatibility
 This applicaiton is compatible with most browsers and screen sizes. These installation instructions are intended for Mac OS X, and some steps may vary for other operating systems. 
@@ -64,12 +67,12 @@ A location may be supplied via the input field below 'Near...', which will promp
 Detailed information for each result can be viewed by `clicking` on either an entry in the results table, or a marker on the map.
 
 ###Using Google Maps
-For help with Google Maps, please refer to [Google Maps Help][4].
+For help with Google Maps, please refer to [Google Maps Help][5].
 
 ## Project Information
 
 ### Requirements
-- A query box and search button that call the [Places Library for Google Maps][5]
+- A query box and search button that call the [Places Library for Google Maps][6]
 - Format the results to give a good user experience
 - A map with location markers/pins
 - A list of locations 
@@ -91,9 +94,10 @@ Please provide your program as a zip or tar archive, with an index.html file.
 
 
 [Links]:_
-[0]: map-app-coding-challenge.herokuapp.com
+[0]: https://map-app-coding-challenge.herokuapp.com
 [1]: https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl
 [2]: https://chrome.google.com/webstore/search/markdown%20viewer
-[3]: https://www.npmjs.com/get-npm
-[4]: https://developers.google.com/maps/documentation/javascript/places
+[3]: https://github.com/bradlm/mapApp
+[4]: https://www.npmjs.com/get-npm
 [5]: https://support.google.com/maps/?hl=en#topic=3092425
+[6]: https://developers.google.com/maps/documentation/javascript/places
